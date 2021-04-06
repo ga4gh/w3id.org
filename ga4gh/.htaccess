@@ -46,6 +46,6 @@ RewriteRule ^serverless-refget(.+)$ https://cl9lba3no5.execute-api.us-east-2.ama
 # Discovery Links
 RewriteRule ^discovery/service-info-v1.yaml$ https://raw.githubusercontent.com/ga4gh-discovery/ga4gh-service-info/develop/service-info.yaml [R=302,B,L]
 
-#REWS Toolkit
+#REWS Workspace
 RewriteRule ^rews-toolkit$ https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/ [R=302,B,L]
 
